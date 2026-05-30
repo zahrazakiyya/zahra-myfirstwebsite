@@ -147,25 +147,3 @@ section .container.active .signinBox .imgBox{
         width:100%;
     }
 }
-}
-.alert{
-    background: #e44e4e;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #b72929;
-}
-#message{
-    background: #e44e4e;
-    color: white;
-    text-align: center;
-    margin-top: 20px;
-}
-#alertBox{
-    position: fixed;
-    top: 20px;
-    left: 2%;
-    transfrom: translateX(-50%);
-    z-index: 999;
-}
-    
