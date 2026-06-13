@@ -471,6 +471,8 @@ Header Style
   text-transform: none;
   border-radius: 20px;
   padding-left: 0px;
+  padding-right: 0px;
+  width: 40px;
 }
 
 .header-area .main-nav .nav li:last-child a i {
