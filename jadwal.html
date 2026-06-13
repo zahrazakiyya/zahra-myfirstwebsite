@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwalkan Kunjungan</title>
+
+  <!-- CSS Template -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-villa-agency.css">
+
+  <style>
+    .schedule-section {
+      padding: 100px 0;
+    }
+
+    .schedule-box {
+      background: #fff;
+      padding: 40px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .schedule-box h2 {
+      margin-bottom: 30px;
+      color: #1e1e1e;
+      font-weight: 700;
+    }
+
+    .schedule-box input,
+    .schedule-box textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      outline: none;
+    }
+
+    .schedule-box button {
+      background-color: #f35525;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      border-radius: 30px;
+      transition: 0.3s;
+    }
+
+    .schedule-box button:hover {
+      background-color: #1e1e1e;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container schedule-section">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+
+        <div class="schedule-box">
+
+          <h2>Jadwalkan Kunjungan</h2>
+
+          <form>
+
+            <label>Nama Lengkap</label>
+            <input type="text" placeholder="Masukkan nama lengkap" required>
+
+            <label>Nomor Telepon</label>
+            <input type="tel" placeholder="Masukkan nomor telepon" required>
+
+            <label>Tanggal Kunjungan</label>
+            <input type="date" required>
+
+            <label>Jam Kunjungan</label>
+            <input type="time" required>
+
+            <label>Pesan Tambahan</label>
+            <textarea rows="4" placeholder="Tambahkan pesan (opsional)"></textarea>
+
+            <button type="submit"><i class="fa fa-calendar"></i>Kirim Jadwa</button>
+
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
